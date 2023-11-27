@@ -45,6 +45,6 @@ Abriremos [localhost:8888](http://localhost:8888)
 ## Integrantes
 
 - Jocelyn Soto Ávila [JocelynSota](https://github.com/JocelynSota)
-- Leonardo Trevizo Herrera
+- Leonardo Trevizo Herrera [Leonardo](https://github.com/Trololo37)
 - Jair Alejandtro Gaytan Espindola
 - Samuel Sánchez Tarango [Taimander](https://github.com/Taimander)
