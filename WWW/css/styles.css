@@ -50,12 +50,15 @@ body{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    width: 80%;
+    background: #050517;
 }
 
 .imagen{
     margin-right: 15px;
     margin-top: auto;
     margin-bottom: 30px;
+    border-radius: 10%;
 }	
 
 .caracteristicas{
@@ -74,5 +77,10 @@ body{
     font: sans-serif;
     font-family: sans-serif;
     font-size: 20px;
-    line-height: 20px;
+    line-height: 30px;
+}
+
+.letras_de_arriba{
+    color: #FFFFFF;
+    font: sans-serif;
 }
