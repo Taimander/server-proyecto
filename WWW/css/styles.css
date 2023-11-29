@@ -256,3 +256,12 @@ input[type=submit]:hover {
     font-weight: lighter;
     margin-block: 0;
 }
+
+.subtitle {
+    font-family: Krub;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: lighter;
+    margin-block: 0;
+    margin-bottom: 10px;
+}
