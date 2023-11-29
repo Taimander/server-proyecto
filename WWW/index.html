@@ -1,219 +1,422 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Info</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tres Fotos en Recuadros</title>
-        <style>
-          /* Estilos opcionales para darle formato a los recuadros */
-          .contenedor {
-            width: 30%; /* Ajusta el ancho según tus necesidades */
-            margin: 10px;
-            float: left; /* Hace que los contenedores estén en línea */
-          }
-      
-          .img {
-            width: 100%; /* Ajusta el ancho de las imágenes al 100% del contenedor */
-            height: auto; /* Mantiene la proporción original de la imagen */
-            display: block; /* Elimina el espacio adicional debajo de la imagen */
-          }
-        </style>
-    </head>
 
-    <body>
-        <div id="descripcion" class="section">
-            <h1 id="carro_title" class="titulo">Busca tu carro ideal</h1>
-            <p id="carro_model" class="titulo_año">Motors(SLJY)</p>
-            <div id="carro_info" class="documentacion_carro">
-                <img class="imagen" id="carro_img" src="img/Agencia.jpg" alt="Agencia" height="100px" width="200px" /> <br>
-                <p id="carro_descripcion" class="text">¿Has imaginado alguna vez la sensación de conducir el carro que siempre has deseado? En nuestra agencia, nos comprometemos a hacer que esa visión se convierta en realidad. Ya sea que busques elegancia, potencia, tecnología de vanguardia o simplemente un paseo que refleje tu estilo de vida, tenemos el carro perfecto para ti.</p>
-            </div>
+<head>
+  <title>Info</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tres Fotos en Recuadros</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
 
-        
-        <div class="contenedor">
-            <img class="img" src="img/db12.jpg" alt="Imagen 1" ><br>
-            <h4>DB12<h4><br>
-            <h3>Aston Marin</h3><h3><br>
-            <a herf= "[link de la pagina del carro]"> Saber mas</a>
+<body>
+  <div class="navbar">
+    <h1 class="navbar-title">Automax</h1>
+    <ul style="margin-top: 0;" class="navbar-list">
+      <li class="navbar-link"><a class="navbar-link-text" href="/">Inicio</a></li>
+      <li class="navbar-link"><a class="navbar-link-text" href="contacto.html">Contacto</a></li>
+      <li class="navbar-link"><a class="navbar-link-text" href="acercade.html">Acerca De</a></li>
+    </ul>
+  </div>
+  <div class="section" style="min-height: 260px;">
+    <h2 class="titulo">Busca tu carro ideal</h2>
+    <div class="desc" style="display: flex;">
+      <img class="img-desc" src="/img/Agencia.webp" alt="Agencia" />
+      <p class="text-desc">¿Has imaginado alguna vez la sensación de conducir el carro que siempre has
+        deseado?<br> En nuestra agencia, nos comprometemos a hacer que esa visión se convierta en realidad. Ya sea que
+        busques elegancia, potencia, tecnología de vanguardia o simplemente un paseo que refleje tu estilo de vida,
+        tenemos el carro perfecto para ti.</p>
+    </div>
+  </div>
+  <div style="margin-left: 10%; margin-right: 10%;">
+    <div style="margin-top:10px; margin-bottom: 10px;">
+      <h2 class="titulo" style="margin-left: 0;">Nuestra mejor selección</h2>
+    </div>
+    <div style="display:flex; flex-wrap: wrap;">
+      <div class="contenedor" id="car1">
+        <img class="img" src="img/db12.jpg" alt="Imagen 1">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
         </div>
-      
-        <div class="contenedor">
-            <img class="img" src="img/A4.jpg" alt="Imagen 2"><br>
-            <h4>A4<h4><br>
-            <h3>Audi<h3><br>
-            <a herf= "[link de la pagina del carro]"> Saber mas</a>
+      </div>
+      <div class="contenedor" id="car2">
+        <img class="img" src="img/A4.jpg" alt="Imagen 2">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
         </div>
-      
-        <div class="contenedor">
-          <img class="img" src="img/maz3.jpg" alt="Imagen 3"><br>
-          <h4>Mazda 3<h4><br>
-          <h3>Mazda<h3><br>
-          <a herf= "[link de la pagina del carro]"> Saber mas</a>
+      </div>
+      <div class="contenedor" id="car3">
+        <img class="img" src="img/1.jpg" alt="Imagen 1">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
         </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/2.jpg" alt="Imagen 2">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/3.jpg" alt="Imagen 3">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/4.jpg" alt="Imagen 1">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/5.jpg" alt="Imagen 2">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/6.jpg" alt="Imagen 3">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/7.jpg" alt="Imagen 1">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/8.jpg" alt="Imagen 2">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/9.jpg" alt="Imagen 3">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/10.jpg" alt="Imagen 1">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/11.jpg" alt="Imagen 2">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/9.jpg" alt="Imagen 3">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/f2.jpg" alt="Imagen 3">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/frontier.jpg" alt="Imagen 3">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/acord.jpg" alt="Imagen 3">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/malibu.jpg" alt="Imagen 3">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/cheyene.jpg" alt="Imagen 3">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/9.jpg" alt="Imagen 3">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/450.jpg" alt="Imagen 3">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/polo.jpg" alt="Imagen 3">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/leon.jpg" alt="Imagen 3">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/jetta.jpg" alt="Imagen 3">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+      <div class="contenedor">
+        <img class="img" src="img/cavalier.jpeg" alt="Imagen 3">
+        <h3 class="card-title">DB12</h3>
+        <p class="card-year">2022</p>
+        <div style="margin-top: 10px;">
+          <h3 class="card-brand">Aston Martin</h3>
+        </div>
+      </div>
+    </div>
+  </div>
 
-        <div class="contenedor">
-            <img class="img" src="img/1.jpg" alt="Imagen 1" ><br>
-            <h4>Mustang GTR<h4><br>
-            <h3>Ford</h3><h3><br>
-            <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
-      
-        <div class="contenedor">
-            <img class="img" src="img/2.jpg" alt="Imagen 2"><br>
-            <h4>Mustang Red<h4><br>
-            <h3>Ford<h3><br>
-            <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
-      
-        <div class="contenedor">
-          <img class="img" src="img/3.jpg" alt="Imagen 3"><br>
-          <h4>Mustang Perron<h4><br>
-          <h3>Ford<h3><br>
-          <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
+  <!--
+  <div class="contenedor">
+    <img class="img" src="img/A4.jpg" alt="Imagen 2"><br>
+    <h4>A4<h4><br>
+        <h3>Audi<h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
 
-        <div class="contenedor">
-            <img class="img" src="img/4.jpg" alt="Imagen 1" ><br>
-            <h4>Mustang?<h4><br>
-            <h3>Ford</h3><h3><br>
-            <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
-      
-        <div class="contenedor">
-            <img class="img" src="img/5.jpg" alt="Imagen 2"><br>
-            <h4>Centenario<h4><br>
-            <h3>Ferrari<h3><br>
-            <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
-      
-        <div class="contenedor">
-          <img class="img" src="img/6.jpg" alt="Imagen 3"><br>
-          <h4>A4 AMG<h4><br>
-          <h3>Audi<h3><br>
-          <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
+  <div class="contenedor">
+    <img class="img" src="img/maz3.jpg" alt="Imagen 3"><br>
+    <h4>Mazda 3<h4><br>
+        <h3>Mazda<h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
 
-        <div class="contenedor">
-            <img class="img" src="img/7.jpg" alt="Imagen 1" ><br>
-            <h4>Jetta<h4><br>
-            <h3>Volkswagen</h3><h3><br>
-            <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
-      
-        <div class="contenedor">
-            <img class="img" src="img/8.jpg" alt="Imagen 2"><br>
-            <h4>Ferrari<h4><br>
-            <h3>Ferrari<h3><br>
-            <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
-      
-        <div class="contenedor">
-          <img class="img" src="img/9.jpg" alt="Imagen 3"><br>
-          <h4>Corvette<h4><br>
-          <h3>Chevrolet<h3><br>
-          <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
+  <div class="contenedor">
+    <img class="img" src="img/1.jpg" alt="Imagen 1"><br>
+    <h4>Mustang GTR<h4><br>
+        <h3>Ford</h3>
+        <h3><br>
+          <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
 
-        <div class="contenedor">
-            <img class="img" src="img/10.jpg" alt="Imagen 1" ><br>
-            <h4>DB13<h4><br>
-            <h3>Aston Martin</h3><h3><br>
-            <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
-      
-        <div class="contenedor">
-            <img class="img" src="img/11.jpg" alt="Imagen 2"><br>
-            <h4>TSURU tuneado<h4><br>
-            <h3>Nissan<h3><br>
-            <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
-      
-        <div class="contenedor">
-          <img class="img" src="img/9.jpg" alt="Imagen 3"><br>
-          <h4> i Grand Turing <h4><br>
-          <h3> Mazda 3 <h3><br>
-          <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
+  <div class="contenedor">
+    <img class="img" src="img/2.jpg" alt="Imagen 2"><br>
+    <h4>Mustang Red<h4><br>
+        <h3>Ford<h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
 
-        <div class="contenedor">
-          <img class="img" src="img/f2.jpg" alt="Imagen 3"><br>
-          <h4> Focus <h4><br>
-          <h3> Ford <h3><br>
-          <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
+  <div class="contenedor">
+    <img class="img" src="img/3.jpg" alt="Imagen 3"><br>
+    <h4>Mustang Perron<h4><br>
+        <h3>Ford<h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
 
-        <div class="contenedor">
-          <img class="img" src="img/frontier.jpg" alt="Imagen 3"><br>
-          <h4> Frontier<h4><br>
-          <h3> Nissan<h3><br>
-          <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
+  <div class="contenedor">
+    <img class="img" src="img/4.jpg" alt="Imagen 1"><br>
+    <h4>Mustang?<h4><br>
+        <h3>Ford</h3>
+        <h3><br>
+          <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
 
-        <div class="contenedor">
-          <img class="img" src="img/acord.jpg" alt="Imagen 3"><br>
-          <h4> Acord<h4><br>
-          <h3> Honda <h3><br>
-          <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
+  <div class="contenedor">
+    <img class="img" src="img/5.jpg" alt="Imagen 2"><br>
+    <h4>Centenario<h4><br>
+        <h3>Ferrari<h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
 
-        <div class="contenedor">
-          <img class="img" src="img/malibu.jpg" alt="Imagen 3"><br>
-          <h4> Malibu<h4><br>
-          <h3> Chevrolet <h3><br>
-          <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
+  <div class="contenedor">
+    <img class="img" src="img/6.jpg" alt="Imagen 3"><br>
+    <h4>A4 AMG<h4><br>
+        <h3>Audi<h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
 
-        <div class="contenedor">
-          <img class="img" src="img/cheyene.jpg" alt="Imagen 3"><br>
-          <h4> Cheyenne <h4><br>
-          <h3> Chevrolet<h3><br>
-          <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
+  <div class="contenedor">
+    <img class="img" src="img/7.jpg" alt="Imagen 1"><br>
+    <h4>Jetta<h4><br>
+        <h3>Volkswagen</h3>
+        <h3><br>
+          <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
 
-        <div class="contenedor">
-          <img class="img" src="img/9.jpg" alt="Imagen 3"><br>
-          <h4> i Grand Turing <h4><br>
-          <h3> Mazda 3 <h3><br>
-          <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
+  <div class="contenedor">
+    <img class="img" src="img/8.jpg" alt="Imagen 2"><br>
+    <h4>Ferrari<h4><br>
+        <h3>Ferrari<h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
 
-        <div class="contenedor">
-          <img class="img" src="img/450.jpg" alt="Imagen 3"><br>
-          <h4> 450 <h4><br>
-          <h3> Ford <h3><br>
-          <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
+  <div class="contenedor">
+    <img class="img" src="img/9.jpg" alt="Imagen 3"><br>
+    <h4>Corvette<h4><br>
+        <h3>Chevrolet<h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
 
-        <div class="contenedor">
-          <img class="img" src="img/polo.jpg" alt="Imagen 3"><br>
-          <h4> Polo <h4><br>
-          <h3> Volkswagen <h3><br>
-          <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
+  <div class="contenedor">
+    <img class="img" src="img/10.jpg" alt="Imagen 1"><br>
+    <h4>DB13<h4><br>
+        <h3>Aston Martin</h3>
+        <h3><br>
+          <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
 
-        <div class="contenedor">
-          <img class="img" src="img/leon.jpg" alt="Imagen 3"><br>
-          <h4> Leon <h4><br>
-          <h3> Cupra <h3><br>
-          <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
+  <div class="contenedor">
+    <img class="img" src="img/11.jpg" alt="Imagen 2"><br>
+    <h4>TSURU tuneado<h4><br>
+        <h3>Nissan<h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
 
-        <div class="contenedor">
-          <img class="img" src="img/jetta.jpg" alt="Imagen 3"><br>
-          <h4> Jetta <h4><br>
-          <h3> Volkswagen <h3><br>
-          <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
+  <div class="contenedor">
+    <img class="img" src="img/9.jpg" alt="Imagen 3"><br>
+    <h4> i Grand Turing <h4><br>
+        <h3> Mazda 3 <h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
 
-        <div class="contenedor">
-          <img class="img" src="img/cavalier.jpeg" alt="Imagen 3"><br>
-          <h4> Cavalier <h4><br>
-          <h3> Chevrolet <h3><br>
-          <a herf= "[link de la pagina del carro]"> Saber mas</a>
-        </div>
+  <div class="contenedor">
+    <img class="img" src="img/f2.jpg" alt="Imagen 3"><br>
+    <h4> Focus <h4><br>
+        <h3> Ford <h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
 
+  <div class="contenedor">
+    <img class="img" src="img/frontier.jpg" alt="Imagen 3"><br>
+    <h4> Frontier<h4><br>
+        <h3> Nissan<h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
 
-      
-    </body>
+  <div class="contenedor">
+    <img class="img" src="img/acord.jpg" alt="Imagen 3"><br>
+    <h4> Acord<h4><br>
+        <h3> Honda <h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
+
+  <div class="contenedor">
+    <img class="img" src="img/malibu.jpg" alt="Imagen 3"><br>
+    <h4> Malibu<h4><br>
+        <h3> Chevrolet <h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
+
+  <div class="contenedor">
+    <img class="img" src="img/cheyene.jpg" alt="Imagen 3"><br>
+    <h4> Cheyenne <h4><br>
+        <h3> Chevrolet<h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
+
+  <div class="contenedor">
+    <img class="img" src="img/9.jpg" alt="Imagen 3"><br>
+    <h4> i Grand Turing <h4><br>
+        <h3> Mazda 3 <h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
+
+  <div class="contenedor">
+    <img class="img" src="img/450.jpg" alt="Imagen 3"><br>
+    <h4> 450 <h4><br>
+        <h3> Ford <h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
+
+  <div class="contenedor">
+    <img class="img" src="img/polo.jpg" alt="Imagen 3"><br>
+    <h4> Polo <h4><br>
+        <h3> Volkswagen <h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
+
+  <div class="contenedor">
+    <img class="img" src="img/leon.jpg" alt="Imagen 3"><br>
+    <h4> Leon <h4><br>
+        <h3> Cupra <h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
+
+  <div class="contenedor">
+    <img class="img" src="img/jetta.jpg" alt="Imagen 3"><br>
+    <h4> Jetta <h4><br>
+        <h3> Volkswagen <h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
+
+  <div class="contenedor">
+    <img class="img" src="img/cavalier.jpeg" alt="Imagen 3"><br>
+    <h4> Cavalier <h4><br>
+        <h3> Chevrolet <h3><br>
+            <a herf="[link de la pagina del carro]"> Saber mas</a>
+  </div>
+ -->
+  <script src="/js/landing.js"></script>
+</body>
+
 </html>

@@ -15,6 +15,8 @@ function getMimeType(extension) {
             return 'image/jpeg';
         case 'png':
             return 'image/png';
+        case 'ttf':
+            return 'font/ttf';
         default:
             return 'text/html';
     }
