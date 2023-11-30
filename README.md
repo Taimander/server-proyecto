@@ -11,7 +11,7 @@ Para utilizar el servidor se puede abrir de las siguientes maneras:
 Para utilizar el servidor localmente, es necesario tener instalado git y NodeJS.
 
 1. Clonaremos el proyecto: 
-`git clone <url del proyecto>`
+`git clone git@github.com:Taimander/server-proyecto.git`
 
 2. Accederemos a la carpeta del proyecto: 
 `cd server-proyecto`
@@ -27,7 +27,7 @@ Abriremos [localhost:8888](http://localhost:8888)
 Para utilizar el servidor con la imágen de Docker, es necesario tener instalado Docker
 
 1. Descargamos e iniciamos el contenedor del servidor con el siguiente comando: 
-`docker run -p8888:8888 -n server-proyecto Taimander/server-proyecto:latest`
+`docker run -p8888:8888 -n server-proyecto -d samuelsanchezt/server-proyecto`
 
 2. Abrimos la página del servidor (por defecto, el puerto es 8888). 
 Abriremos [localhost:8888](http://localhost:8888)
@@ -46,5 +46,5 @@ Abriremos [localhost:8888](http://localhost:8888)
 
 - Jocelyn Soto Ávila [JocelynSota](https://github.com/JocelynSota)
 - Leonardo Trevizo Herrera [Leonardo](https://github.com/Trololo37)
-- Jair Alejandtro Gaytan Espindola
+- Jair Alejandtro Gaytan Espindola [jairgaytan](https://github.com/jairgaytan)
 - Samuel Sánchez Tarango [Taimander](https://github.com/Taimander)
